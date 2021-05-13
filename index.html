@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/styles.css">
+    <title>Turismo Colombiano</title>
+</head>
+
+<body>
+    <div class="contenedor">
+        <header id="header">
+            <div class="logo">
+                <img src="./images/logo.jpg" alt="" width="100%" height="auto" id="header-img">
+            </div>
+
+            <div class="contenedor-titulo">
+                <h1>Turismo de Colombia</h1>
+            </div>
+
+            <div class="topnav">
+                <nav id="nav-bar">
+                    <a class="nav-link" href="#">Inicio</a>
+                    <a class="nav-link" href="#">Destinos</a>
+                    <a class="nav-linke" href="#">Ofertas</a>
+                </nav>
+            </div>
+
+        </header>
+    </div>
+
+    <main>
+        <div class="titulo">
+            <h2>Turismo Colombiano</h2>
+        </div>
+
+        <div class="formulario">
+            <form id="form" action="https://www.freecodecamp.com/email-submit">
+                <label for="email">Ingrese su email para mas información</label>
+                <input type="email" id="email" name="email" required>
+                <br><br>
+                <input type="submit" class="button1" value="submit" id="submit">
+            </form>
+        </div>
+
+        <div class="video" id="video">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/JCKqkzfGvEA"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen>
+            </iframe>
+        </div>
+
+        <div class="flex-container">
+            <div>
+                <h3 class="destinos">Cartagena</h3>
+                <img src="./images/cartagena.png" class="imagenes">
+                <p>Cartagena es una ciudad que está ubicada a orillas del Mar Caribe. Sus calles coloridas llenas de
+                    encanto la hacen la puerta de entrada a Suramérica. En Colombia, se encuentra al norte del país, y
+                    es la capital de la región de Bolívar.</p>
+                <input type="submit" class="button2" value="seleccionar" >
+            </div>
+            <div>
+                <h3 class="destinos">San Andres</h3>
+                <img src="./images/sanandres.jpeg" class="imagenes">
+                <p>San Andrés, Providencia y Santa Catalina es un departamento colombiano situado en el medio del mar
+                    Caribe, a 775 Km del Nord-este de la costa. Este conjunto está considerado como un lugar
+                    paradisiaco que posee las más bellas playas de Colombia e incluso del Caribe</p>
+                <input type="submit" class="button2" value="seleccionar" >
+            </div>
+            <div>
+                <h3 class="destinos">Santa Marta</h3>
+                <img src="./images/santamarta.jpg" class="imagenes">
+                <p> Capital del departamento de Magdalena. Santa Marta es la segunda ciudad más
+                    antigua de América del Sur, posee un patrimonio arquitectónico inigualable que evoca los tiempos de
+                    la bonanza bananera</p>
+                <input type="submit" class="button2" value="seleccionar">
+            </div>
+        </div>
+    </main>
+
+</body>
